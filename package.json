@@ -1,0 +1,22 @@
+{
+  "name": "webpackfundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "watch": "node_modules/.bin/webpack --watch",
+    "serve": "webpack-dev-server -d --hot --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.1.1"
+  }
+}
